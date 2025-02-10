@@ -377,7 +377,7 @@ button {
 /* FEATURES-TAB */
 
 @media screen and (min-width: 768px) {
- .features-list {
+  .features-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 64px;
@@ -390,7 +390,6 @@ button {
 }
 
 /* FEATURES */
-
 
 @media screen and (min-width: 1158px) {
   .features {
@@ -428,12 +427,9 @@ button {
   .features-item-text {
     font-weight: 400;
   }
+}
 
 /* TEAM-MOB */
-
-/* TEAM-TAB */
-
-/* TEAM */
 
 .team {
   background: #f4f4fd;
@@ -511,6 +507,41 @@ button {
 
 .team-soc-icon {
   fill: #f4f4fd;
+}
+
+/* TEAM-TAB */
+
+@media screen and (min-width: 768px) {
+  .team {
+    padding: 96px 0;
+  }
+
+  .team-list {
+    row-gap: 64px;
+    column-gap: 24px;
+    width: 552px;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+/* TEAM */
+
+@media screen and (min-width: 1158px) {
+  .team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    gap: 24px;
+    min-width: 1158px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
 }
 
 .portfolio {
@@ -748,20 +779,6 @@ button {
 /* TABLET */
 
 @media screen and (min-width: 768px) {
-  .team {
-    padding: 96px 0;
-  }
-
-  .team-list {
-    row-gap: 64px;
-    column-gap: 24px;
-    width: 552px;
-  }
-
-  .team-item {
-    width: calc((100% - 24px) / 2);
-  }
-
   .portfolio {
     padding: 96px 0;
   }
@@ -817,19 +834,6 @@ button {
 /* DESKTOP */
 
 @media screen and (min-width: 1158px) {
-  .team {
-    padding: 120px 0;
-  }
-
-  .team-list {
-    gap: 24px;
-    min-width: 1158px;
-  }
-
-  .team-item {
-    width: calc((100% - 72px) / 4);
-  }
-
   .portfolio {
     padding: 120px 0;
   }
