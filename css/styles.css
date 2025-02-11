@@ -1135,7 +1135,7 @@ color: #2e2f42;
   margin-bottom: 16px;
 }
 
-/* MODAL-TAB and MODAL */
+/* MODAL-TAB */
 
 @media screen and (min-width: 768px) {
    .modal {
@@ -1145,7 +1145,7 @@ color: #2e2f42;
 } 
 }
 
-/* MODAL-FORM-MOB */
+/* MODAL_FORM */
 
 .modal-group {
   margin-bottom: 16px;
@@ -1182,7 +1182,6 @@ color: #2e2f42;
 
 .input-wrap {
   position: relative;
-  /* margin-top: 4px; */
 }
 
 .modal-icon {
@@ -1236,6 +1235,8 @@ color: #2e2f42;
 }
 
 .modal-policy-text {
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
